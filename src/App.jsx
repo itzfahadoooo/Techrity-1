@@ -61,7 +61,7 @@ const App = () => {
             </li>
             <li className="py-1">
               <a
-                href="/about"
+                href="/"
                 className="px-4 flex justify-end border-r-4 border-white"
               >
                 <span>About</span>
@@ -80,7 +80,7 @@ const App = () => {
             </li>
             <li className="py-1">
               <a
-                href="/contact"
+                href="/"
                 className="px-4 flex justify-end border-r-4 border-white"
               >
                 <span>Contact</span>
