@@ -14,7 +14,7 @@ const App = () => {
         <nav className="text-right">
           <div className="flex justify-between items-center">
             <h1 className="font-bold uppercase p-4 border-b border-gray-100" >
-              <a href="/" className="hover:text-gray-700 tracking-widest" >
+              <a href="#" className="hover:text-gray-700 tracking-widest" >
                 Food Ninja
               </a>
             </h1>
@@ -104,13 +104,13 @@ const App = () => {
       <main className="px-16 py-6 md:col-span-2 bg-gray-100">
         <div className="flex justify-center md:justify-end">
           <a
-            href="/login"
+            href="#"
             className="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500"
           >
             Log in
           </a>
           <a
-            href="/signup"
+            href="#"
             className="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500"
           >
             Sign up
@@ -212,7 +212,96 @@ const App = () => {
               </div>
             </div>
           </div>
+
+          <h4 className="font-bold pb-2 mt-12 border-b border-gray-200">
+            Most Popular
+          </h4>
+
+          <div className="mt-8 grid lg:grid-cols-3 gap-10">
+            <div className="card hover:shadow-lg">
+              <img
+                src="img/stew.jpg"
+                alt="5 Bean Chili Stew"
+                className="h-32 sm:h-48 w-full object-cover"
+              />
+              <div className="m-4">
+                <span className="font-bold">5 Bean Chili Stew</span>
+                <span className="block text-gray-500 text-sm">
+                  Recipe by Mario
+                </span>
+              </div>
+              <div className="badge">
+                <svg
+                  className="inline-block w-5"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>25 mins</span>
+              </div>
+            </div>
+            <div className="card hover:shadow-lg">
+              <img
+                src="img/noodles.jpg"
+                alt="5 Bean Chili Stew"
+                className="h-32 sm:h-48 w-full object-cover"
+              />
+              <div className="m-4">
+                <span className="font-bold">5 Bean Chili Stew</span>
+                <span className="block text-gray-500 text-sm">
+                  Recipe by Mario
+                </span>
+              </div>
+              <div className="badge">
+                <svg
+                  className="inline-block w-5"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>25 mins</span>
+              </div>
+            </div>
+            <div className="card hover:shadow-lg">
+              <img
+                src="img/curry.jpg"
+                alt="5 Bean Chili Stew"
+                className="h-32 sm:h-48 w-full object-cover"
+              />
+              <div className="m-4">
+                <span className="font-bold">5 Bean Chili Stew</span>
+                <span className="block text-gray-500 text-sm">
+                  Recipe by Mario
+                </span>
+              </div>
+              <div className="badge">
+                <svg
+                  className="inline-block w-5"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>25 mins</span>
+              </div>
+            </div>
+          </div>
         </div>
+        
 
         <div className="mt-12 flex justify-center">
           <button className="btn bg-secondary-100 text-secondary-200 inline-block hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">
