@@ -44,12 +44,13 @@ const App = () => {
             <li className="text-gray-700 font-bold py-1">
               <a
                 href="/"
-                
+
                 className="px-4 flex justify-end border-r-4 border-primary"
               >
                 <span>Home</span>
                 <svg
                   className="w-5 ml-2"
+                  
                   fill="none"
                   strokeLinecap="round"
                   strokeLinejoin="round"
