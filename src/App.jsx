@@ -40,10 +40,11 @@ const App = () => {
             className={`text-sm mt-6 ${menuVisible ? "" : "hidden"} md:block`}
             id="menu"
           >
-            
+
             <li className="text-gray-700 font-bold py-1">
               <a
                 href="/"
+                
                 className="px-4 flex justify-end border-r-4 border-primary"
               >
                 <span>Home</span>
