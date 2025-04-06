@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 const App = () => {
   const [menuVisible, setMenuVisible] = useState(false);
 
@@ -9,14 +8,12 @@ const App = () => {
   };
 
   return (
-
-
     <div className="grid md:grid-cols-3">
       <div className="md:col-span-1 md:flex md:justify-end">
         <nav className="text-right">
           <div className="flex justify-between items-center">
-            <h1 className="font-bold uppercase p-4 border-b border-gray-100" >
-              <a href="#" className="hover:text-gray-700 tracking-widest" >
+            <h1 className="font-bold uppercase p-4 border-b border-gray-100">
+              <a href="#" className="hover:text-gray-700 tracking-widest">
                 Food Ninja
               </a>
             </h1>
@@ -42,23 +39,19 @@ const App = () => {
             className={`text-sm mt-6 ${menuVisible ? "" : "hidden"} md:block`}
             id="menu"
           >
-
             <li className="text-gray-700 font-bold py-1">
               <a
                 href="/"
-
                 className="px-4 flex justify-end border-r-4 border-primary"
               >
                 <span>Home</span>
                 <svg
                   className="w-5 ml-2"
-                  
                   fill="none"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   stroke="currentColor"
-                  
                   viewBox="0 0 24 24"
                 >
                   <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
@@ -307,7 +300,6 @@ const App = () => {
             </div>
           </div>
         </div>
-        
 
         <div className="mt-12 flex justify-center">
           <button className="btn bg-secondary-100 text-secondary-200 inline-block hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">
